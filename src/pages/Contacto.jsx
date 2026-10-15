@@ -22,7 +22,7 @@ function Contacto() {
             loading="lazy"
           />
           <a
-            href="https://www.openstreetmap.org/?mlat=-24.7892&mlon=-65.4104#map=16/-24.7892/-65.4104"
+            href="https://www.google.com/maps/search/?api=1&query=Anzoategui%20159%2C%20Salta%2C%20Argentina"
             target="_blank"
             rel="noreferrer"
           >
