@@ -10,7 +10,26 @@ function Contacto() {
         Todos los campos son obligatorios.
       </p>
 
-      <FormularioContacto />
+      <div className="contacto-columnas">
+        <FormularioContacto />
+
+        <aside className="ubicacion">
+          <h2>Ubicación de referencia</h2>
+          <p>Anozategui 159: Departamento 3F; Salta, Argentina.</p>
+          <iframe
+            title="Mapa de ubicación de referencia"
+            src="https://maps.google.com/maps?q=Anzoategui%20159%2C%20Salta%2C%20Argentina&z=17&output=embed"
+            loading="lazy"
+          />
+          <a
+            href="https://www.openstreetmap.org/?mlat=-24.7892&mlon=-65.4104#map=16/-24.7892/-65.4104"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Abrir mapa en otra pestaña
+          </a>
+        </aside>
+      </div>
     </section>
   );
 }
